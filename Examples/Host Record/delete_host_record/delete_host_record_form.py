@@ -95,7 +95,7 @@ class GenericFormTemplate(GatewayForm):
         disable_dependencies={'on_change': ['submit', 'name', 'ip4_address', 'deploy_now']}
     )
 
-    seperator = PlainHTML('<hr>')
+    separator = PlainHTML('<hr>')
 
     name = CustomStringField(
         label='Name',

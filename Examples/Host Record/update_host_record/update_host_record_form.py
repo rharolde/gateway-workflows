@@ -96,7 +96,7 @@ class GenericFormTemplate(GatewayForm):
         should_cascade_disable_on_change=True,
     )
 
-    seperator = PlainHTML('<hr>')
+    separator = PlainHTML('<hr>')
 
     name = CustomStringField(
         label='New Host Name',
@@ -104,7 +104,7 @@ class GenericFormTemplate(GatewayForm):
     )
 
     ip4_address = CustomStringField(
-        label='IPv4 Address (multiple IPv4 addresses must be seperated by a comma)',
+        label='IPv4 Address (multiple IPv4 addresses must be separated by a comma)',
         required=True
     )
 
